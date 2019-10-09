@@ -1,0 +1,1 @@
+http://api.thingspeak.com/update?key=WRITE-KEY&field1=0

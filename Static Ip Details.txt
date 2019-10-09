@@ -1,0 +1,5 @@
+byte mac[] = { 0x00, 0xAA, 0xBB, 0xCC, 0xDE, 0x02 }; // <------- PUT YOUR MAC Address Here
+byte ip[] = { 192, 168, 0, 8 }; //                    <------- PUT YOUR IP Address Here
+byte gateway[] = { 192, 168, 0, 1 }; //               <------- PUT YOUR ROUTERS IP Address to which your shield is connected Here
+byte subnet[] = { 255, 255, 255, 0 }; //                <------- It will be as it is in most of the cases
+EthernetServer server(80); // 
